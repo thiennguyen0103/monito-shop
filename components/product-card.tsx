@@ -51,7 +51,7 @@ const ProductCard = (props: IProductCardProps) => {
         </div>
       </CardContent>
       <CardFooter className="px-4">
-        <div>
+        <div className="w-full">
           <data value={price} className="text-lg font-bold text-neutral-100">
             {price}
           </data>

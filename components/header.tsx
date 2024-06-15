@@ -4,7 +4,7 @@ import { Heart, LogOut, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import NavBar from "./navbar";
 import NavbarMobile from "./navbar-mobile";
 import SearchInput from "./search-input";
@@ -20,19 +20,44 @@ import {
 
 const Header = () => {
   const router = useRouter();
+  const headerRef = useRef<HTMLElement>(null);
   const [isLogin, setIsLogin] = useState(false);
 
   const redirectToLoginPage = () => {
     router.push("/login");
   };
 
+  useEffect(() => {
+    const shrinkHeader = () => {
+      if (headerRef.current) {
+        if (
+          document.body.scrollTop > 60 ||
+          document.documentElement.scrollTop > 60
+        ) {
+          headerRef.current.classList.add("md:py-3");
+          headerRef.current.classList.add("bg-white/80");
+        } else {
+          headerRef.current.classList.remove("md:py-3");
+          headerRef.current.classList.remove("bg-white/80");
+        }
+      }
+    };
+    window.addEventListener("scroll", shrinkHeader);
+    return () => {
+      window.removeEventListener("scroll", shrinkHeader);
+    };
+  }, []);
+
   return (
-    <header className="container fixed top-0 left-0 right-0 py-3 md:py-7 z-40">
-      <div className="center flex items-center justify-between gap-4">
+    <header
+      ref={headerRef}
+      className="fixed left-0 right-0 top-0 z-40 py-3 duration-300 md:py-7"
+    >
+      <div className="center container flex items-center justify-between gap-4">
         <NavbarMobile />
         <div className="flex items-center justify-center gap-12">
-          <Link href="/">
-            <Image src="/logo.svg" alt="Logo" width={115} height={40} />
+          <Link href="/" className="flex-1">
+            <Image src="/logo.svg" alt="Logo" width={115} height={40} className="min-w-[92px]" />
           </Link>
           <NavBar />
         </div>
