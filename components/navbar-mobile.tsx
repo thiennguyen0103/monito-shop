@@ -18,7 +18,7 @@ const NavbarMobile = () => {
       <Menu onClick={toggleMenu} className="cursor-pointer" />
       <div
         className={cn(
-          "fixed -left-full top-0 z-10 h-screen w-screen bg-background duration-300",
+          "fixed -left-[110%] top-0 z-10 h-screen w-screen bg-background duration-300",
           toggle && "left-0",
         )}
       >

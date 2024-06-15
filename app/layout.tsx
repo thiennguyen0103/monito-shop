@@ -34,7 +34,7 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <div className="flex-1">{children}</div>
+        <div className="flex-1 bg-neutral-00">{children}</div>
         <Footer />
       </body>
     </html>

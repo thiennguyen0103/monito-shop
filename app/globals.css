@@ -4,6 +4,10 @@
 
 @layer base {
   :root {
+    --dark-blue-40: #0078CD;
+    --dark-blue-60: #00528C;
+    --dark-blue-80: #002A48;
+
     --state-pink-red: #ff564f;
     --state-green-light: #34c759;
     --state-orange-shine: #ff912c;

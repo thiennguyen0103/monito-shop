@@ -27,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header className="container sticky py-3 md:py-7">
+    <header className="container fixed top-0 left-0 right-0 py-3 md:py-7 z-40">
       <div className="center flex items-center justify-between gap-4">
         <NavbarMobile />
         <div className="flex items-center justify-center gap-12">

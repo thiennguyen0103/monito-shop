@@ -1,0 +1,68 @@
+const newestPetData = [
+  {
+    id: 1,
+    imageUrl: "/pet-1.png",
+    name: "MO231 - Pomeranian White",
+    gender: "Male",
+    age: "02 Months",
+    price: "6.900.000 VND",
+  },
+  {
+    id: 2,
+    imageUrl: "/pet-2.png",
+    name: "MO502 - Poodle Tiny Yellow",
+    gender: "Female",
+    age: "02 Months",
+    price: "3.900.000 VND",
+  },
+  {
+    id: 3,
+    imageUrl: "/pet-3.png",
+    name: "MO102 - Poodle Tiny Sepia",
+    gender: "Male",
+    age: "02 Months",
+    price: "4.000.000 VND",
+  },
+  {
+    id: 4,
+    imageUrl: "/pet-4.png",
+    name: "MO512 - Alaskan Malamute Grey",
+    gender: "Male",
+    age: "02 Months",
+    price: "8.900.000 VND",
+  },
+  {
+    id: 5,
+    imageUrl: "/pet-5.png",
+    name: "MO231 - Pembroke Corgi Cream",
+    gender: "Male",
+    age: "02 Months",
+    price: "7.900.000 VND",
+  },
+  {
+    id: 6,
+    imageUrl: "/pet-6.png",
+    name: "MO502 - Pembroke Corgi Tricolor",
+    gender: "Male",
+    age: "02 Months",
+    price: "9.000.000 VND",
+  },
+  {
+    id: 7,
+    imageUrl: "/pet-7.png",
+    name: "MO231 - Pomeranian White",
+    gender: "Male",
+    age: "02 Months",
+    price: "6.500.000 VND",
+  },
+  {
+    id: 8,
+    imageUrl: "/pet-8.png",
+    name: "MO512 - Poodle Tiny Dairy Cow",
+    gender: "Male",
+    age: "02 Months",
+    price: "5.000.000 VND",
+  },
+];
+
+export { newestPetData };

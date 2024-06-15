@@ -12,12 +12,17 @@ const config = {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: "12px",
+        md: "16px",
+        xl: "130px"
+      },
       screens: {
-        sm: '600px',
-        md: '728px',
-        lg: '984px',
-        xl: '1240px',
-        '2xl': '1496px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
       },
     },
     extend: {
@@ -70,6 +75,11 @@ const config = {
           "80": "var(--neutral-80)",
           "100": "var(--neutral-100)",
         },
+        "dark-blue": {
+          "40": "var(--dark-blue-40)",
+          "60": "var(--dark-blue-60)",
+          "80": "var(--dark-blue-80)",
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
