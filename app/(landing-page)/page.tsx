@@ -1,4 +1,5 @@
 import Blog from "./_components/blog";
+import Brand from "./_components/brand";
 import Hero from "./_components/hero";
 import News from "./_components/news";
 import Product from "./_components/product";
@@ -9,7 +10,8 @@ export default function Home() {
       <Hero />
       <News />
       <Product />
-      <Blog/>
+      <Brand/>
+      <Blog />
     </main>
   );
 }
