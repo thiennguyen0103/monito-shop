@@ -17,11 +17,11 @@ const Hero = () => {
 
       <div className="absolute right-[35%] top-[18%] z-20 h-[15px] w-[15px] rotate-[21deg] rounded-sm bg-secondary"></div>
       <div className="absolute right-[44%] top-[22%] z-20 h-[16px] w-[16px] rotate-[80deg] rounded-sm bg-secondary lg:right-[44.5%] lg:top-[26.5%] lg:h-[28px] lg:w-[28px] lg:rotate-[77deg] lg:rounded-md"></div>
-      <div className="absolute right-[44.5%] top-[22.5%] z-30 h-[13px] w-[13px] rotate-[47deg] rounded-sm bg-primary lg:right-[45%] lg:top-[28%] lg:h-[21px] lg:w-[21px] lg:rounded-md"></div>
+      <div className="absolute right-[44.5%] top-[22.5%] z-30 h-[13px] w-[13px] rotate-[47deg] rounded-sm bg-dark-blue lg:right-[45%] lg:top-[28%] lg:h-[21px] lg:w-[21px] lg:rounded-md"></div>
 
       <div className="absolute bottom-0 right-0 h-[690px] w-full lg:w-[930px]">
         <div className="relative h-full w-full">
-          <div className="absolute -bottom-[40%] -right-[50%] z-20 h-[528px] w-[528px] rotate-[5deg] rounded-[48px] bg-primary md:-bottom-[40%] md:right-[1%] lg:-bottom-[35.5%] lg:right-[19.8%] lg:h-[635px] lg:w-[635px] lg:rounded-[99px]"></div>
+          <div className="absolute -bottom-[40%] -right-[50%] z-20 h-[528px] w-[528px] rotate-[5deg] rounded-[48px] bg-dark-blue md:-bottom-[40%] md:right-[1%] lg:-bottom-[35.5%] lg:right-[19.8%] lg:h-[635px] lg:w-[635px] lg:rounded-[99px]"></div>
           <div className="absolute -bottom-[31%] -right-[65%] z-20 h-[528px] w-[528px] -rotate-[64.77deg] rounded-[48px] bg-secondary md:-bottom-[40%] md:-right-[2%] lg:-bottom-[29.5%] lg:right-[13%] lg:h-[635px] lg:w-[635px] lg:rounded-[99px]"></div>
           <Image
             src="/hero.png"

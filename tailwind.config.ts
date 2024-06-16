@@ -33,11 +33,11 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "var(--primary)",
+          DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "var(--secondary)",
+          DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
@@ -76,9 +76,16 @@ const config = {
           "100": "var(--neutral-100)",
         },
         "dark-blue": {
+          DEFAULT: "var(--dark-blue)",
           "40": "var(--dark-blue-40)",
           "60": "var(--dark-blue-60)",
           "80": "var(--dark-blue-80)",
+        },
+        "mon-yellow": {
+          DEFAULT: "var(--mon-yellow)",
+          "40": "var(--mon-yellow-40)",
+          "60": "var(--mon-yellow-60)",
+          "80": "var(--mon-yellow-80)",
         }
       },
       borderRadius: {

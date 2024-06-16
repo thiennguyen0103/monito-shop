@@ -4,9 +4,15 @@
 
 @layer base {
   :root {
+    --dark-blue: #003459;
     --dark-blue-40: #0078CD;
     --dark-blue-60: #00528C;
     --dark-blue-80: #002A48;
+
+    --mon-yellow: #F7DBA7;
+    --mon-yellow-40: #FCEED5;
+    --mon-yellow-60: #F1D092;
+    --mon-yellow-80: #EEC77E;
 
     --state-pink-red: #ff564f;
     --state-green-light: #34c759;
@@ -30,10 +36,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: #003459;
+    --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: #f7dba7;
+    --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -86,7 +92,6 @@
 @layer base {
   * {
     @apply border-border;
-    @apply text-neutral-80
   }
   body {
     @apply bg-background text-foreground;

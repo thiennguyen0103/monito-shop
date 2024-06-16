@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="container rounded-tl-3xl rounded-tr-3xl bg-[#FCEED5] pt-20">
       <div className="flex flex-col">
-        <div className="rounded-2xl bg-primary p-8">
+        <div className="rounded-2xl bg-dark-blue p-8">
           <form>
             <div className="flex flex-col items-center gap-5 md:flex-row">
               <label className="basis-1/3 text-wrap text-2xl font-bold text-neutral-00">
